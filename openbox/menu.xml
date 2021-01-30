@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="CMake"> <action name="Execute">
+                <execute>cmake-gui</execute>
+            </action> </item>
+            <item label="CMake curses GUI (ccmake)"> <action name="Execute">
+                <execute>xterm -e ccmake</execute>
+            </action> </item>
+            <item label="IDLE (Python IDE)"> <action name="Execute">
+                <execute>idle</execute>
+            </action> </item>
+            <item label="Python"> <action name="Execute">
+                <execute>xterm -e python</execute>
+            </action> </item>
+            <item label="Python (v2.7)"> <action name="Execute">
+                <execute>xterm -e python2.7</execute>
+            </action> </item>
+            <item label="Qt Assistant"> <action name="Execute">
+                <execute>assistant</execute>
+            </action> </item>
+            <item label="Qt Designer"> <action name="Execute">
+                <execute>designer</execute>
+            </action> </item>
+            <item label="Qt Linguist"> <action name="Execute">
+                <execute>linguist</execute>
+            </action> </item>
+            <item label="Qt QDbusViewer"> <action name="Execute">
+                <execute>qdbusviewer</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="Vim"> <action name="Execute">
+                <execute>xterm -e vim</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <menu id="9" label="Adventure">
+                <item label="Sclient"> <action name="Execute">
+                    <execute>sclient</execute>
+                </action> </item>
+            </menu>
+            <menu id="10" label="Arcade">
+                <item label="PacMan"> <action name="Execute">
+                    <execute>pacman</execute>
+                </action> </item>
+            </menu>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="3D LUT Maker"> <action name="Execute">
+                <execute>displaycal-3dlut-maker</execute>
+            </action> </item>
+            <item label="Curve Viewer"> <action name="Execute">
+                <execute>displaycal-curve-viewer</execute>
+            </action> </item>
+            <item label="DisplayCAL"> <action name="Execute">
+                <execute>displaycal</execute>
+            </action> </item>
+            <item label="ICC Profile Info"> <action name="Execute">
+                <execute>displaycal-profile-info</execute>
+            </action> </item>
+            <item label="Profile Loader"> <action name="Execute">
+                <execute>displaycal-apply-profiles --force</execute>
+            </action> </item>
+            <item label="Scripting Client"> <action name="Execute">
+                <execute>displaycal-scripting-client</execute>
+            </action> </item>
+            <item label="Synthetic ICC"> <action name="Execute">
+                <execute>displaycal-synthprofile</execute>
+            </action> </item>
+            <item label="Testchart Editor"> <action name="Execute">
+                <execute>displaycal-testchart-editor</execute>
+            </action> </item>
+            <item label="VRML to X3D"> <action name="Execute">
+                <execute>displaycal-vrml-to-x3d-converter</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="Audacity"> <action name="Execute">
+                <execute>audacity</execute>
+            </action> </item>
+            <item label="Audacity"> <action name="Execute">
+                <execute>env UBUNTU_MENUPROXY=0 audacity</execute>
+            </action> </item>
+            <item label="HandBrake"> <action name="Execute">
+                <execute>ghb</execute>
+            </action> </item>
+            <item label="mpv Media Player"> <action name="Execute">
+                <execute>mpv --player-operation-mode=pseudo-gui</execute>
+            </action> </item>
+            <item label="Olive"> <action name="Execute">
+                <execute>olive-editor</execute>
+            </action> </item>
+            <item label="PulseAudio Volume Control"> <action name="Execute">
+                <execute>pavucontrol</execute>
+            </action> </item>
+            <item label="Qt V4L2 test Utility"> <action name="Execute">
+                <execute>qv4l2</execute>
+            </action> </item>
+            <item label="Qt V4L2 video capture utility"> <action name="Execute">
+                <execute>qvidcap</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Avahi SSH Server Browser"> <action name="Execute">
+                <execute>bssh</execute>
+            </action> </item>
+            <item label="Avahi VNC Server Browser"> <action name="Execute">
+                <execute>bvnc</execute>
+            </action> </item>
+            <item label="Daedalus mainnet"> <action name="Execute">
+                <execute>/home/zayn/.local/share/Daedalus/mainnet/namespaceHelper</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="qBittorrent"> <action name="Execute">
+                <execute>qbittorrent</execute>
+            </action> </item>
+            <item label="SoulSeekQT"> <action name="Execute">
+                <execute>soulseekqt</execute>
+            </action> </item>
+            <item label="TkVNC"> <action name="Execute">
+                <execute>xterm -e tkvnc</execute>
+            </action> </item>
+        </menu>
+        <menu id="3" label="Office">
+            <item label="Ledger Live"> <action name="Execute">
+                <execute>ledger-live-desktop</execute>
+            </action> </item>
+            <item label="Obsidian"> <action name="Execute">
+                <execute>env DESKTOPINTEGRATION=false /usr/bin/obsidian</execute>
+            </action> </item>
+            <item label="Zathura"> <action name="Execute">
+                <execute>zathura</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="File Manager PCManFM"> <action name="Execute">
+                <execute>pcmanfm</execute>
+            </action> </item>
+            <item label="GIT"> <action name="Execute">
+                <execute>xterm -e git</execute>
+            </action> </item>
+            <item label="urxvt"> <action name="Execute">
+                <execute>urxvt</execute>
+            </action> </item>
+            <item label="urxvt (client)"> <action name="Execute">
+                <execute>urxvtc</execute>
+            </action> </item>
+            <item label="urxvt (tabbed)"> <action name="Execute">
+                <execute>urxvt-tabbed</execute>
+            </action> </item>
+            <item label="UXTerm"> <action name="Execute">
+                <execute>uxterm</execute>
+            </action> </item>
+            <item label="Xterm"> <action name="Execute">
+                <execute>xterm</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <menu id="21" label="GNOME">
+                    <item label="Advanced Network Configuration"> <action name="Execute">
+                        <execute>nm-connection-editor</execute>
+                    </action> </item>
+                </menu>
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Desktop Preferences"> <action name="Execute">
+                    <execute>pcmanfm --desktop-pref</execute>
+                </action> </item>
+                <item label="Monitor Settings"> <action name="Execute">
+                    <execute>lxrandr</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>libfm-pref-apps</execute>
+                </action> </item>
+                <item label="Setup Hot Keys"> <action name="Execute">
+                    <execute>lxhotkey --gui=gtk</execute>
+                </action> </item>
+                <item label="Tint2 Settings"> <action name="Execute">
+                    <execute>tint2conf</execute>
+                </action> </item>
+            </menu>
+            <item label="Avahi Zeroconf Browser"> <action name="Execute">
+                <execute>avahi-discover</execute>
+            </action> </item>
+            <item label="FSV"> <action name="Execute">
+                <execute>fsv2</execute>
+            </action> </item>
+            <item label="Hardware Locality lstopo"> <action name="Execute">
+                <execute>lstopo</execute>
+            </action> </item>
+            <item label="Openbox Menu Editor"> <action name="Execute">
+                <execute>obmenu</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>xterm -e pstree</execute>
+            </action> </item>
+            <item label="Pstree"> <action name="Execute">
+                <execute>xterm -e pstree.x11</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>xterm -e /usr/bin/pstree.x11</execute>
+            </action> </item>
+            <item label="Tint2"> <action name="Execute">
+                <execute>tint2</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>xterm -e top</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="Info"> <action name="Execute">
+                <execute>xterm -e info</execute>
+            </action> </item>
+            <item label="Redshift"> <action name="Execute">
+                <execute>redshift-gtk</execute>
+            </action> </item>
+            <item label="Xarchiver"> <action name="Execute">
+                <execute>xarchiver</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>

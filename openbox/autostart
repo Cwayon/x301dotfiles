@@ -1,0 +1,8 @@
+# nitrogen --restore &
+pcmanfm -d &
+sh ~/.fehbg &
+tint2 &
+redshift-gtk -l 51.5074:0.1278 -t 6500:3400 &
+mmaker -vf openbox &
+openbox --reconfigure &
+nm-applet &
